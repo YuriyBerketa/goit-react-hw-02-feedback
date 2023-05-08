@@ -1,17 +1,18 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 export const Button = styled.button`
 display: inline-block;
-background: #3e3e3e;
+background: #1FB275;
 border: none;
-width: 100px;
-height: 35px;
-margin-left: 20px;
+width: 150px;
+height: 50px;
+margin-right: 15px;
 border-radius: 10px;
 color: white;
-font-size: 14px;
+font-size: 18px;
+text-transform: uppercase;
 
 &:hover {
-    background: rgb(33 53 140)
+    background: rgb(235 179 10)
 }
 `;

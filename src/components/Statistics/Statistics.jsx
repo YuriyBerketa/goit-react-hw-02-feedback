@@ -11,10 +11,10 @@ export const Statistics = ({
     return (
         <List>
             <li>Good: {good}</li>
-            <li>Good: {neutral}</li>
-            <li>Good: {bad}</li>
-            <li>Good: {total}</li>
-            <li>Good: {positivePercentage} %</li>
+            <li>Neutral: {neutral}</li>
+            <li>Bad: {bad}</li>
+            <li>Total: {total}</li>
+            <li>Positive feedback: {positivePercentage} %</li>
         </List>
     );
 }; 
